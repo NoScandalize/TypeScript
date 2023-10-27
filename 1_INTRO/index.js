@@ -1,9 +1,9 @@
-var firstName = "Douglas";
-var anotherName = 1;
-var x = true;
-function greeting(name) {
-    console.log("Olá " + name);
-}
+// const firstName = "Douglas";
+// const anotherName = 1;
+// const x = true;
+// function greeting(name: string) {
+//     console.log("Olá " + name)
+// }
 greeting(firstName);
-greeting(anotherName);
-greeting(x);
+// greeting(anotherName)
+// greeting(x)
