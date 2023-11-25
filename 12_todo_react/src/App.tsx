@@ -56,7 +56,7 @@ function App() {
 
   return (
     <div>
-      <Modal children={<TaskForm btnText='Editar tarefa' taskList={taskList} task={taskToUpdate} handleUpdate={updateTask} />}/>
+      <Modal children={<TaskForm btnText='Concluir' taskList={taskList} task={taskToUpdate} handleUpdate={updateTask} />}/>
       <Header />
       <main className={styles.main}>
         <div>
